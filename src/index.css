@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	outline: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+:root {
+	--color-bg: #add8e6;
+	--color-bg-light: #c6ecf9;
+	--color-bg-variant: #aad0ff;
+	--color-bg-variant-2: #7fa4d1;
+	--color-textColor: #00008b;
+	--color-light-textColor: #00008ba6;
+	--color-Primary-variant: #6fadf8;
+	--color-Primary-variant-2: #c2dcfd;
+	--color-Primary-variant-3: #cde4ff;
+
+	--color-Primary: #0073ff;
+	--color-Footer: #001a481d;
+	--color-white: #fff;
+	--color-progressbar: #779ac588;
+
+	--transition: all 400ms ease;
+
+	--container-width-lg: 80%;
+	--container-width-md: 93%;
+	--container-width-sm: 98%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: var(--color-bg);
+	color: var(--color-textColor);
+	line-height: 1.7;
+}
+
+/*   +++++++++++++++++++++++==  GENERAL STYLES  ==++++++++++++++++++++++++++++++   */
+
+.container {
+	width: var(--container-width-lg);
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: 500;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+section {
+	margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+	text-align: center;
+	color: var(--color-light-textColor);
+}
+
+section > h2 {
+	color: var(--color-Primary);
+	margin-bottom: 3rem;
+}
+.text-light {
+	color: var(--color-light-textColor);
+}
+
+a {
+	color: var(--color-Primary);
+	transition: var(--transition);
+}
+
+a:hover {
+	color: var(--color-textColor);
+}
+
+.btn {
+	width: max-content;
+	height: max-content;
+	display: inline-block;
+	color: var(--color-Primary);
+	padding: 0.75rem 1.2rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	border: 1px solid var(--color-Primary);
+	transition: var(--transition);
+}
+
+.btn:hover {
+	background: var(--color-textColor);
+	color: var(--color-bg);
+	border-color: transparent;
+}
+
+.btn-Primary {
+	background: var(--color-Primary);
+	color: var(--color-bg);
+}
+
+img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* ============ Media Queries (Medium Devices) ====================*/
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: var(--container-width-md);
+	}
+	section {
+		margin-top: 6rem;
+	}
+}
+
+/* ============ Media Queries (Small Devices) ====================*/
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: var(--container-width-sm);
+	}
+	section {
+		margin-top: 5rem;
+	}
+}

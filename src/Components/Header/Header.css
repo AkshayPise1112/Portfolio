@@ -1,0 +1,138 @@
+/* ============ top section ============= */
+.logo {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.symbol,
+.top {
+	display: flex;
+}
+
+.top {
+	justify-content: space-between;
+}
+
+/* =========== Main Header Content ============= */
+
+header {
+	height: auto;
+	padding-top: 2rem;
+	overflow: hidden;
+}
+
+.headerMain {
+	display: flex;
+	justify-content: space-between;
+	padding: 5rem;
+}
+
+.header_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	align-items: center;
+	letter-spacing: 0.5rem;
+}
+
+.text-light span {
+	font-size: 1.1rem;
+}
+
+.cursor {
+	color: orangered;
+}
+
+/* =========== Header Social =========== */
+
+.header_social {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	gap: 5rem;
+}
+
+.header_social::after {
+	content: '';
+	width: 1px;
+	height: 2rem;
+	background: var(--color-Primary);
+}
+
+.links svg {
+	width: 1.4rem;
+	height: 1.4rem;
+}
+
+.instruction {
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 2rem;
+	color: var(--color-bg-variant-2);
+}
+
+.instruction:hover {
+	cursor: default;
+}
+
+.cursor {
+	color: orangered;
+}
+
+/* ==========image========== */
+
+.me {
+	width: 25rem;
+	height: auto;
+}
+
+.me img {
+	border-radius: 15%;
+	border: 5px solid var(--color-Primary-variant);
+	box-shadow: 33px 33px 73px var(--color-bg-variant-2),
+		-33px -33px 73px var(--color-bg-variant);
+}
+
+/* ==============Media Queries ========== */
+
+@media screen and (max-width: 1124px) {
+	.instruction {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.headerMain {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.header_text {
+		letter-spacing: 0.1rem;
+	}
+	.me {
+		margin-top: 4rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.top {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2rem;
+	}
+	.logoName {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	.me {
+		width: 18rem;
+	}
+}

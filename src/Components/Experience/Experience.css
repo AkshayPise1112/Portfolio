@@ -1,0 +1,149 @@
+.experience_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.experience_container > div {
+	background: var(--color-bg-light);
+	padding: 2.4rem 5rem;
+	border-radius: 2rem;
+	border: 1px solid transparent;
+	transition: var(--transition);
+	box-shadow: rgba(91, 165, 255, 0.17) 0px -23px 25px 0px inset,
+		rgba(91, 165, 255, 0.15) 0px -36px 30px 0px inset,
+		rgba(91, 165, 255, 0.1) 0px -79px 40px 0px inset,
+		rgba(91, 165, 255, 0.06) 0px 2px 1px, rgba(91, 165, 255, 0.09) 0px 4px 2px,
+		rgba(91, 165, 255, 0.09) 0px 8px 4px, rgba(91, 165, 255, 0.09) 0px 16px 8px,
+		rgba(91, 165, 255, 0.09) 0px 32px 16px;
+	/* box-shadow: rgba(161, 214, 255, 0.35) 0px -50px 36px -28px inset; */
+}
+
+.experience_container > div:hover {
+	background: transparent;
+	border-color: var(--color-Primary-variant);
+	cursor: default;
+}
+
+.experience_container > div > h3 {
+	text-align: center;
+	margin-bottom: 3rem;
+	color: var(--color-Primary);
+	font-size: 1.2rem;
+}
+
+.experience_content {
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 2rem;
+}
+
+.experience_details2 {
+	display: flex;
+	gap: 1rem;
+}
+
+.experience_details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.experience_details-icon {
+	margin-top: 8px;
+	color: var(--color-Primary);
+}
+
+.progressbar {
+	width: 10rem;
+	height: 1rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: stretch;
+
+	border-radius: 60px;
+	background-color: var(--color-progressbar);
+	transition: var(--transition);
+
+	overflow: hidden;
+	box-shadow: 5px 7px 20px var(--color-Primary-variant);
+}
+
+/* =============== All Progress bar Percentage =============== */
+
+.bar_C {
+	width: 90%;
+	background: var(--color-Primary);
+}
+.bar_HTML {
+	width: 85%;
+	background: var(--color-Primary);
+}
+.bar_CSS {
+	width: 76%;
+	background: var(--color-Primary);
+}
+.bar_JS {
+	width: 75%;
+	background: var(--color-Primary);
+}
+.bar_JSX {
+	width: 60%;
+	background: var(--color-Primary);
+}
+.bar_KT {
+	width: 55%;
+	background: var(--color-Primary);
+}
+.bar_JAVA {
+	width: 65%;
+	background: var(--color-Primary);
+}
+.bar_PY {
+	width: 68%;
+	background: var(--color-Primary);
+}
+.bar_OOP {
+	width: 90%;
+	background: var(--color-Primary);
+}
+.bar_DSA {
+	width: 85%;
+	background: var(--color-Primary);
+}
+.bar_GH {
+	width: 65%;
+	background: var(--color-Primary);
+}
+.bar_GIT {
+	width: 45%;
+	background: var(--color-Primary);
+}
+
+/* ================Media Queries =========== */
+
+@media screen and (max-width: 1024px) {
+	.experience_container {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.experience_details {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.experience_container {
+		margin-left: 1rem;
+		margin-right: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.experience_details2 {
+		justify-content: center;
+		text-align: center;
+	}
+}
