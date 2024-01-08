@@ -74,6 +74,14 @@ section {
 	color: var(--color-light-textColor);
 }
 
+.intro {
+	font-size: 1rem;
+}
+
+.fields {
+	font-size: 1rem;
+}
+
 /* ============media queries ================ */
 
 @media screen and (max-width: 1024px) {

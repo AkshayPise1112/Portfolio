@@ -22,22 +22,22 @@ const About = () => {
 					<div className="about_cards">
 						<article className="about_card">
 							<FaAward className="about_icon" />
-							<h4>Experience</h4>
+							<h4 className="fields">Experience</h4>
 							<small>Fresher</small>
 						</article>
 						<article className="about_card">
 							<FaUsers className="about_icon" />
-							<h4>Clients</h4>
+							<h4 className="fields">Clients</h4>
 							<small>0 Clients</small>
 						</article>
 						<article className="about_card">
 							<MdFolderShared className="about_icon" />
-							<h4>Projects</h4>
+							<h4 className="fields">Projects</h4>
 							<small>10+ Completed</small>
 						</article>
 					</div>
 
-					<p>
+					<p className="intro">
 						My Name is Akshay Pise. I am currently pursuing Bsc(Computer
 						Science) in Dr. D. Y. Patil Arts, Commerce and Science College,
 						Pimpri. I am currently in Third Year. I am Software Developer. I
