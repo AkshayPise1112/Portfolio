@@ -20,7 +20,11 @@ const Portfolio = () => {
 					</div>
 					<h3>Portfolio Website</h3>
 					<div className="portfolio_item-cta">
-						<a href="#" target="_blank" className="btn">
+						<a
+							href="https://github.com/AkshayPise1112/Portfolio/tree/main"
+							target="_blank"
+							className="btn"
+						>
 							GitHub
 						</a>
 						{/* <a href="#" className="btn btn-Primary">
