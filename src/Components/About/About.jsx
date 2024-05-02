@@ -38,12 +38,11 @@ const About = () => {
 					</div>
 
 					<p className="intro">
-						My Name is Akshay Pise. I am currently pursuing Bsc(Computer
-						Science) in Dr. D. Y. Patil Arts, Commerce and Science College,
-						Pimpri. I am currently in Third Year. I am Software Developer. I
-						Like to Learn by Trial and Error Method by Myself. I am Quick
-						Learner and Love to Learn new Thing and Technologies, also I Love to
-						Code.
+						My Name is Akshay Pise. I just completed Bsc(Computer Science) in
+						Dr. D. Y. Patil Arts, Commerce and Science College, Pimpri. <br />I
+						am Software Developer. I Like to Learn by Trial and Error Method by
+						Myself. <br />I am Quick Learner and Love to Learn new Thing and
+						Technologies, also I Love to Code.
 					</p>
 
 					<a href="#Contact" className="btn btn-Primary">

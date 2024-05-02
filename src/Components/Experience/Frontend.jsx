@@ -22,24 +22,12 @@ const Frontend = () => {
 					<div className="experience_details2">
 						<TbDiscountCheckFilled className="experience_details-icon" />
 						<div>
-							<h4>HTML</h4>
+							<h4>HTML / CSS</h4>
 							<small className="text-light">Experienced</small>
 						</div>
 					</div>
 					<div className="progressbar">
 						<div className="bar_HTML"></div>
-					</div>
-				</article>
-				<article className="experience_details">
-					<div className="experience_details2">
-						<TbDiscountCheckFilled className="experience_details-icon" />
-						<div>
-							<h4>CSS</h4>
-							<small className="text-light">Experienced</small>
-						</div>
-					</div>
-					<div className="progressbar">
-						<div className="bar_CSS"></div>
 					</div>
 				</article>
 				<article className="experience_details">
@@ -63,7 +51,31 @@ const Frontend = () => {
 						</div>
 					</div>
 					<div className="progressbar">
+						<div className="bar_JS"></div>
+					</div>
+				</article>
+				<article className="experience_details">
+					<div className="experience_details2">
+						<TbDiscountCheckFilled className="experience_details-icon" />
+						<div>
+							<h4>MongoDB</h4>
+							<small className="text-light">Intermediate</small>
+						</div>
+					</div>
+					<div className="progressbar">
 						<div className="bar_JSX"></div>
+					</div>
+				</article>
+				<article className="experience_details">
+					<div className="experience_details2">
+						<TbDiscountCheckFilled className="experience_details-icon" />
+						<div>
+							<h4>Node.js</h4>
+							<small className="text-light">Intermediate</small>
+						</div>
+					</div>
+					<div className="progressbar">
+						<div className="bar_JS"></div>
 					</div>
 				</article>
 				<article className="experience_details">

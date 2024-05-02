@@ -6,6 +6,7 @@ import GuessNumber from '../../assets/GuessNumber.png';
 import PigGame from '../../assets/PigGame.png';
 import TempConv from '../../assets/TempConv.png';
 import Profile from '../../assets/Portfolio.png';
+import Catalogue from '../../assets/catalogue.png';
 
 const Portfolio = () => {
 	return (
@@ -14,6 +15,28 @@ const Portfolio = () => {
 			<h2>PortFolio</h2>
 
 			<div className="container portfolio_container">
+				<article className="portfolio_item">
+					<div className="portfolio_item-img">
+						<img src={Catalogue} alt="Portfolio" />
+					</div>
+					<h3>Catalogue</h3>
+					<div className="portfolio_item-cta">
+						<a
+							href="https://github.com/AkshayPise1112/Catalogue"
+							target="_blank"
+							className="btn"
+						>
+							GitHub
+						</a>
+						{/* <a
+							href="www.github.com"
+							target="_blank"
+							className="btn btn-Primary"
+						>
+							Live Demo
+						</a> */}
+					</div>
+				</article>
 				<article className="portfolio_item">
 					<div className="portfolio_item-img">
 						<img src={Profile} alt="Portfolio" />
@@ -106,28 +129,6 @@ const Portfolio = () => {
 					<div className="portfolio_item-cta">
 						<a
 							href="https://github.com/AkshayPise1112/Calculator/tree/master"
-							target="_blank"
-							className="btn"
-						>
-							GitHub
-						</a>
-						{/* <a
-							href="www.github.com"
-							target="_blank"
-							className="btn btn-Primary"
-						>
-							Live Demo
-						</a> */}
-					</div>
-				</article>
-				<article className="portfolio_item">
-					<div className="portfolio_item-img">
-						<img src={BMI} alt="Portfolio" />
-					</div>
-					<h3>BMI Calculator</h3>
-					<div className="portfolio_item-cta">
-						<a
-							href="https://github.com/AkshayPise1112/BMI-calculator/tree/master"
 							target="_blank"
 							className="btn"
 						>
