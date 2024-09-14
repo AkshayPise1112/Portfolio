@@ -13,7 +13,7 @@ function MainComponent({ setActiveClass }) {
 	const contactRef = useRef('');
 
 	document.addEventListener('scroll', () => {
-		console.log(window.scrollY);
+		// console.log(window.scrollY);
 
 		if (window.innerWidth > 1024) {
 			if (window.scrollY < 700) setActiveClass('#');
