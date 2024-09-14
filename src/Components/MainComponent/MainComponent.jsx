@@ -64,9 +64,9 @@ function MainComponent({ setActiveClass }) {
 			<Header innerRef={homeRef} />
 			<About innerRef={aboutRef} />
 			<Experience innerRef={experienceRef} />
-			{/* <Services innerRef={ref4}/> */}
+			{/* <Services innerRef={serviceRef}/> */}
 			<Portfolio innerRef={portfolioRef} />
-			{/* <Testimonials innerRef={ref6}/> */}
+			{/* <Testimonials innerRef={testimonialRef}/> */}
 			<Contact innerRef={contactRef} />
 		</>
 	);
