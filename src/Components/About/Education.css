@@ -1,0 +1,79 @@
+.schoolImage {
+	width: 100%;
+	height: 10rem;
+	border-radius: 1.2rem;
+}
+
+.schoolSlider {
+	display: flex;
+	width: 96vw;
+	margin-top: 2rem;
+	height: 26rem;
+	justify-content: space-between;
+	margin: 0 2rem;
+	object-fit: cover;
+	overflow: hidden;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.schoolCard {
+	padding: 1rem;
+	background: var(--color-bg-light);
+	margin-left: 2rem;
+	width: 24rem;
+	border-radius: 1.2rem;
+	box-shadow: 10px 17px 30px var(--color-bg-variant-2);
+	transition: var(--transition);
+	min-height: 20rem;
+	max-height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.schoolName {
+	display: flex;
+	justify-content: space-between;
+}
+
+.schoolCard:hover {
+	background: inherit;
+	border: 1px solid var(--color-Primary-variant);
+}
+
+/* @media screen and (max-width: 1124px) {
+	.schoolSlider {
+		background-color: red;
+	}
+} */
+
+@media screen and (max-width: 1024px) {
+	.schoolSlider {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		height: max-content;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		margin: 0;
+	}
+
+	.schoolCard {
+		margin-top: 2rem;
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.schoolSlider {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: max-content;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.schoolCard {
+		margin-top: 2rem;
+	}
+}

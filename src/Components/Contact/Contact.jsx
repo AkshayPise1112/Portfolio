@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { ImCross } from 'react-icons/im';
 
-const Contact = () => {
+const Contact = ({ innerRef }) => {
 	const form = useRef();
 
 	const sendEmail = (e) => {

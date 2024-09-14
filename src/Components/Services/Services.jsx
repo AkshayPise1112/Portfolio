@@ -1,7 +1,7 @@
 import React from 'react';
 import './Services.css';
 
-const Services = () => {
+const Services = ({ innerRef }) => {
 	return <section id="Services"></section>;
 };
 

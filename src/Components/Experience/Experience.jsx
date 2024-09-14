@@ -3,7 +3,7 @@ import './Experience.css';
 import Backend from './Backend';
 import Frontend from './Frontend';
 
-const Experience = () => {
+const Experience = ({ innerRef }) => {
 	return (
 		<section id="Experience">
 			<h5>What Skills I Have</h5>

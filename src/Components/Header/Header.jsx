@@ -5,7 +5,7 @@ import HeaderSocial from './HeaderSocials';
 import Top from './Top';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
-const Header = () => {
+const Header = ({ innerRef }) => {
 	const [TextWords] = useTypewriter({
 		words: ['WEB DEVELOPER', 'COMPETITIVE PROGRAMMER', 'ANDROID DEVELOPER'],
 		loop: {},

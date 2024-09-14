@@ -4,8 +4,9 @@ import Profile from './../../assets/profile.png';
 import { FaAward } from 'react-icons/fa6';
 import { FaUsers } from 'react-icons/fa';
 import { MdFolderShared } from 'react-icons/md';
+import Education from './Education';
 
-const About = () => {
+const About = ({ innerRef }) => {
 	return (
 		<section id="About">
 			<h5>Get to Know</h5>
@@ -50,6 +51,8 @@ const About = () => {
 					</a>
 				</div>
 			</div>
+
+			<Education />
 		</section>
 	);
 };

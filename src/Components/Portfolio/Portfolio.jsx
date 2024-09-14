@@ -8,7 +8,7 @@ import TempConv from '../../assets/TempConv.png';
 import Profile from '../../assets/Portfolio.png';
 import Catalogue from '../../assets/catalogue.png';
 
-const Portfolio = () => {
+const Portfolio = ({ innerRef }) => {
 	return (
 		<section id="Portfolio">
 			<h5>My Recent Work</h5>
