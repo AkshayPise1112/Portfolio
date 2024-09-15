@@ -5,6 +5,7 @@ import { RiTwitterXLine } from 'react-icons/ri';
 import './Footer.css';
 
 const Footer = () => {
+	// footer
 	return (
 		<section id="Footer">
 			<div className="footer_container">
