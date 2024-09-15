@@ -1,6 +1,6 @@
 import React from 'react';
 import Symbol from '../../assets/logo.png';
-import Resume from '../../assets/akshayResume.pdf';
+import resume from './../../assets/akshayResume copy.pdf';
 
 const Top = () => {
 	return (
@@ -9,7 +9,7 @@ const Top = () => {
 				<img src={Symbol} alt="A" className="logo" />
 				<h1 className="logoName">kshay Pise</h1>
 			</div>
-			<a href={Resume} download={Resume.pdf} target="blank" className="btn">
+			<a href={resume} download={resume.pdf} target="blank" className="btn">
 				Download CV
 			</a>
 		</div>
