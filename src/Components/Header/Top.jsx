@@ -9,7 +9,7 @@ const Top = () => {
 				<img src={Symbol} alt="A" className="logo" />
 				<h1 className="logoName">kshay Pise</h1>
 			</div>
-			<a href={Resume} download={Resume.pdf} target="blank" className="btn">
+			<a href={Resume} download={Resume} target="blank" className="btn">
 				Download CV
 			</a>
 		</div>
