@@ -38,8 +38,9 @@
 }
 
 .schoolCard:hover {
-	background: inherit;
-	border: 1px solid var(--color-Primary-variant);
+	transform: translateY(-5px);
+	box-shadow: 33px 33px 73px var(--color-bg-variant-2),
+		-33px -33px 73px var(--color-bg-variant);
 }
 
 /* @media screen and (max-width: 1124px) {

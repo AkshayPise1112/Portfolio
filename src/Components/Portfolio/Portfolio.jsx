@@ -50,9 +50,9 @@ const Portfolio = ({ innerRef }) => {
 						>
 							GitHub
 						</a>
-						{/* <a href="#" className="btn btn-Primary">
+						<a href="#" className="btn btn-Primary">
 							Live Demo
-						</a> */}
+						</a>
 					</div>
 				</article>
 				<article className="portfolio_item">
@@ -68,13 +68,13 @@ const Portfolio = ({ innerRef }) => {
 						>
 							GitHub
 						</a>
-						{/* <a
-							href="www.github.com"
+						<a
+							href="https://thepiggameio.vercel.app/"
 							target="_blank"
 							className="btn btn-Primary"
 						>
 							Live Demo
-						</a> */}
+						</a>
 					</div>
 				</article>
 				<article className="portfolio_item">
@@ -90,13 +90,13 @@ const Portfolio = ({ innerRef }) => {
 						>
 							GitHub
 						</a>
-						{/* <a
-							href="www.github.com"
+						<a
+							href="https://guessmynumberio.vercel.app/"
 							target="_blank"
 							className="btn btn-Primary"
 						>
 							Live Demo
-						</a> */}
+						</a>
 					</div>
 				</article>
 				<article className="portfolio_item">
@@ -112,13 +112,13 @@ const Portfolio = ({ innerRef }) => {
 						>
 							GitHub
 						</a>
-						{/* <a
-							href="www.github.com"
+						<a
+							href="https://temperatureconverterio.vercel.app/"
 							target="_blank"
 							className="btn btn-Primary"
 						>
 							Live Demo
-						</a> */}
+						</a>
 					</div>
 				</article>
 				<article className="portfolio_item">
