@@ -21,7 +21,7 @@ const HeaderSocials = () => {
 				<BsGithub />
 			</a>
 			<a
-				href="https://www.instagram.com/akshay_19.01/"
+				href="https://www.instagram.com/akshaypise1112/"
 				target="_blank"
 				className="links"
 			>

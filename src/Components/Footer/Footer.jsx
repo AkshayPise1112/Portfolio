@@ -28,7 +28,7 @@ const Footer = () => {
 					<a href="https://twitter.com/akshaypise1112">
 						<RiTwitterXLine />
 					</a>
-					<a href="https://www.instagram.com/akshay_19.01/">
+					<a href="https://www.instagram.com/akshaypise1112/">
 						<FaInstagram />
 					</a>
 					<a href="https://www.linkedin.com/in/akshay-pise-b25592242/">
