@@ -1,6 +1,6 @@
 import React from 'react';
 import Symbol from '../../assets/logo.png';
-import resume from './../../assets/akshayResume copy.pdf';
+import resume from './../../assets/akshay_resume.pdf';
 
 const Top = () => {
 	return (
