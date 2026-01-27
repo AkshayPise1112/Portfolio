@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Contact.css';
 import ContactHandles from './ContactHandles';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { ImCross } from 'react-icons/im';
 
 const Contact = ({ innerRef }) => {
@@ -13,7 +13,7 @@ const Contact = ({ innerRef }) => {
 
 		emailjs
 			.sendForm(
-				'service_yr8dwci',
+				'service_q6g65o2',
 				'template_y2p0d6g',
 				form.current,
 				'ifMJtFPf6CZ57F_lM'
