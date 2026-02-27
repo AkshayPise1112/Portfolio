@@ -1,5 +1,5 @@
 nav {
-	background: rgba(16, 159, 231, 0.2);
+	background: rgba(167, 167, 168, 0.2);
 	width: max-content;
 	display: block;
 	padding: 1.7rem 1.3rem;
@@ -27,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-	background: rgba(10, 135, 197, 0.3);
+	background: var(--color-bg-variant);
 }
 
 nav a.active {

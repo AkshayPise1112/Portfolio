@@ -36,7 +36,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<p>
-					Created in 2023<sup>&#169;</sup>
+					&#169; {new Date().getFullYear()} Akshay Pise. All Rights Reserved.
 				</p>
 			</div>
 		</section>

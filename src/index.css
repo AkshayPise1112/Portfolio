@@ -11,20 +11,20 @@
 }
 
 :root {
-	--color-bg: #add8e6;
-	--color-bg-light: #c6ecf9;
-	--color-bg-variant: #aad0ff;
-	--color-bg-variant-2: #7fa4d1;
-	--color-textColor: #00008b;
-	--color-light-textColor: #00008ba6;
-	--color-Primary-variant: #6fadf8;
-	--color-Primary-variant-2: #c2dcfd;
-	--color-Primary-variant-3: #cde4ff;
+	--color-bg: #E7E7E7;
+	--color-bg-light: #f6f5f5;
+	--color-bg-variant: #cdcdcd;
+	--color-bg-variant-2: rgb(206, 206, 206);
+	--color-textColor: #2b2b2b;
+	--color-light-textColor: #242424a6;
+	--color-Primary-variant: #929394;
+	--color-Primary-variant-2: #c1c2c4;
+	--color-Primary-variant-3: #7c7c7c;
 
-	--color-Primary: #0073ff;
+	--color-Primary: #030303;
 	--color-Footer: #001a481d;
 	--color-white: #fff;
-	--color-progressbar: #779ac588;
+	--color-progressbar: #8a8b8d88;
 
 	--transition: all 400ms ease;
 
@@ -71,16 +71,17 @@ section {
 	margin-top: 8rem;
 }
 
-section > h2,
-section > h5 {
+section>h2,
+section>h5 {
 	text-align: center;
 	color: var(--color-light-textColor);
 }
 
-section > h2 {
+section>h2 {
 	color: var(--color-Primary);
 	margin-bottom: 3rem;
 }
+
 .text-light {
 	color: var(--color-light-textColor);
 }
@@ -129,6 +130,7 @@ img {
 	.container {
 		width: var(--container-width-md);
 	}
+
 	section {
 		margin-top: 6rem;
 	}
@@ -140,6 +142,7 @@ img {
 	.container {
 		width: var(--container-width-sm);
 	}
+
 	section {
 		margin-top: 5rem;
 	}

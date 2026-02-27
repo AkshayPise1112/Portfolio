@@ -15,12 +15,13 @@
 	border-radius: 10px;
 	transition: var(--transition);
 
-	box-shadow: rgba(91, 165, 255, 0.17) 0px -23px 25px 0px inset,
+
+	/* box-shadow: rgba(91, 165, 255, 0.17) 0px -23px 25px 0px inset,
 		rgba(91, 165, 255, 0.15) 0px -36px 30px 0px inset,
 		rgba(91, 165, 255, 0.1) 0px -79px 40px 0px inset,
 		rgba(91, 165, 255, 0.06) 0px 2px 1px, rgba(91, 165, 255, 0.09) 0px 4px 2px,
 		rgba(91, 165, 255, 0.09) 0px 8px 4px, rgba(91, 165, 255, 0.09) 0px 16px 8px,
-		rgba(91, 165, 255, 0.09) 0px 32px 16px;
+		rgba(91, 165, 255, 0.09) 0px 32px 16px; */
 }
 
 .contact_cards {
@@ -57,13 +58,18 @@
 } */
 
 .contact_card:hover {
-	background: var(--color-bg);
+
+	transform: translateY(-5px);
+	box-shadow: 3px 3px 13px var(--color-Primary-variant-3);
+	border-color: var(--color-Primary-variant-3);
 }
 
 .contact_details {
 	overflow: scroll;
-	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -113,6 +119,7 @@
 		flex-direction: column;
 		gap: 5rem;
 	}
+
 	.contact_form {
 		width: 100%;
 	}

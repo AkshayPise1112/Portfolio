@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './Header.css';
-import Profile from '../../assets/profile2b.png';
+import Profile from '../../assets/profilePhoto.jpg';
 import HeaderSocial from './HeaderSocials';
 import Top from './Top';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
