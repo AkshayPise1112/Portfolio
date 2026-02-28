@@ -52,7 +52,7 @@ const About = ({ innerRef }) => {
 				</div>
 			</div>
 
-			<Education />
+			{/* <Education /> */}
 		</section>
 	);
 };

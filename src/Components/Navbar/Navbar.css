@@ -28,6 +28,8 @@ nav a {
 
 nav a:hover {
 	background: var(--color-bg-variant);
+
+	transform: translateY(-5px);
 }
 
 nav a.active {
@@ -49,5 +51,6 @@ nav a.active {
 		padding: 0.7rem 1.7rem;
 		top: auto;
 		bottom: 2rem;
+		bottom: calc(2rem + env(safe-area-inset-bottom));
 	}
 }
