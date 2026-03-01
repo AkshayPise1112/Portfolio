@@ -1,0 +1,213 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500&display=swap'); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tl-section {
+    background: var(--color-bg);
+    padding: 6rem 2rem;
+    /* font-family: 'DM Sans', sans-serif; */
+    min-height: 100vh;
+}
+
+.tl-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.tl-header span {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-orangeRed);
+    margin-bottom: 0.75rem;
+}
+
+.tl-header h2 {
+    /* font-family: 'Playfair Display', serif; */
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    color: var(--color-textColor);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.tl-wrapper {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* center vertical line */
+.tl-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, var(--color-orangeRed) 8%, var(--color-orangeRed) 92%, transparent);
+    transform: translateX(-50%);
+}
+
+.tl-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.tl-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* left items: card on left, dot on center */
+.tl-item.left {
+    justify-content: flex-start;
+    padding-right: calc(50% + 2rem);
+}
+
+/* right items: card on right */
+.tl-item.right {
+    justify-content: flex-end;
+    padding-left: calc(50% + 2rem);
+}
+
+.tl-card {
+    background: var(--color-bg-light);
+    border-radius: 1.25rem;
+    padding: 1.5rem 1.75rem;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 2px 20px var(--color-Primary-variant-2);
+    /* border: 1px solid #ede9e0; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tl-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 33px 33px 73px var(--color-bg-variant-2),
+        -33px -33px 73px var(--color-bg-variant);
+    /* border-color: var(--color-Primary-variant); */
+    cursor: default;
+}
+
+/* arrow pointing to center line */
+.tl-item.left .tl-card::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 1.5rem;
+    border: 10px solid transparent;
+    border-left-color: var(--color-bg-light);
+    border-right: 0;
+}
+
+.tl-item.right .tl-card::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 1.5rem;
+    border: 10px solid transparent;
+    border-right-color: var(--color-bg-light);
+    border-left: 0;
+}
+
+/* dot on the center line */
+.tl-dot {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--color-orangeRed);
+    border: 3px solid var(--color-bg);
+    box-shadow: 0 0 0 2px var(--color-orangeRed);
+    top: 1.75rem;
+    z-index: 1;
+}
+
+.tl-period {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-orangeRed);
+    margin-bottom: 0.5rem;
+}
+
+.tl-degree {
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.25rem;
+    line-height: 1.3;
+}
+
+.tl-institution {
+    font-size: 0.82rem;
+    color: var(--color-primary);
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+}
+
+.tl-desc {
+    font-size: 0.85rem;
+    color: var(--color-Primary-variant-3);
+    line-height: 1.65;
+    font-weight: 300;
+}
+
+.tl-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    margin-bottom: 0.75rem;
+}
+
+.badge-edu {
+    background: #eef4ff;
+    color: #4a6fa5;
+}
+
+.badge-exp {
+    background: #edfaf1;
+    color: #3a7d57;
+}
+
+/* responsive */
+@media (max-width: 640px) {
+    .tl-line {
+        left: 1.5rem;
+    }
+
+    .tl-dot {
+        left: 1.5rem;
+    }
+
+    .tl-item.left,
+    .tl-item.right {
+        justify-content: flex-start;
+        padding-left: 3.5rem;
+        padding-right: 0;
+    }
+
+    .tl-item.left .tl-card::after,
+    .tl-item.right .tl-card::after {
+        display: none;
+    }
+}

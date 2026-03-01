@@ -8,6 +8,10 @@
 	gap: 2rem;
 }
 
+.portfolio {
+	color: orangered;
+}
+
 span {
 	font-size: 2rem;
 	color: var(--color-light-textColor);
@@ -19,6 +23,7 @@ span {
 	gap: 2rem;
 	justify-content: center;
 }
+
 .links a {
 	color: var(--color-Primary);
 }
@@ -34,10 +39,24 @@ span {
 	background: var(--color-textColor);
 	border-radius: 10px;
 }
+
 .appLinks svg {
 	margin-top: 8px;
 	font-size: 1rem;
 	color: var(--color-bg-light);
+}
+
+.links a:hover {
+	color: orangered;
+}
+
+.appLinks a:hover {
+	transform: translateY(-5px);
+	box-shadow: 33px 33px 73px var(--color-bg-variant-2),
+		-33px -33px 73px var(--color-bg-variant);
+	/* border-color: var(--color-Primary-variant); */
+	cursor: default;
+
 }
 
 /* ============ Media Queries ============ */
@@ -51,6 +70,7 @@ span {
 	.footer_container {
 		padding: 4rem 3rem 10rem;
 	}
+
 	.links {
 		flex-direction: column;
 	}

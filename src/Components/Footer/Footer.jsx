@@ -9,7 +9,7 @@ const Footer = () => {
 	return (
 		<section id="Footer">
 			<div className="footer_container">
-				<h3>
+				<h3 className='portfolio'>
 					<span>Akshay Pise</span> Portfolio
 				</h3>
 				<p>
