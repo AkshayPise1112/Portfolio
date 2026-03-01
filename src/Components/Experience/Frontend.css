@@ -72,6 +72,7 @@
     justify-content: flex-start;
     padding-right: calc(50% + 2rem);
     margin-top: 0;
+    margin-top: -6rem;
 }
 
 /* right items: card on right */
