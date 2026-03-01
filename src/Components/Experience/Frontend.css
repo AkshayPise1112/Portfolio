@@ -206,6 +206,9 @@
         justify-content: flex-start;
         padding-left: 3.5rem;
         padding-right: 0;
+        margin-top: 0;
+        /* reset the -6rem pull */
+        margin-bottom: 1.5rem;
     }
 
     .tl-item.left .tl-card::after,
