@@ -11,7 +11,7 @@ const timelineData = [
 	{
 		type: "experience",
 		side: "left",
-		degree: "Frontend Developer Intern",
+		degree: "Fullstack Developer Intern",
 		institution: "DigitalEDU Pvt. Ltd.",
 		period: `Dec 2025 – ${currentMonth} ${currentYear}`,
 		description: "Built scalable api's as well as migrate backend from php7.5 to php8.5",
