@@ -12,9 +12,9 @@ const Experience = ({ innerRef }) => {
 
 			<Skills />
 			<Frontend />
-			<div className="container experience_container">
-				{/* <Backend /> */}
-			</div>
+			{/* <div className="container experience_container">
+				<Backend />
+			</div> */}
 		</section>
 	);
 };
